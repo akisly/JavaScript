@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100vh;
+}
+
+body {
+	margin: 50px;
+	padding: 0px;
+}
+
+#butterfly {
+	position: absolute;
+	top: calc(50% - 25px);
+	left: calc(50% - 25px);
+	min-height: 50px;
+	width: 50px;
+	background-color: red;
+}
+
+#footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+   text-align: center;
+	background: red;
+}
+
+span {
+  font: 18px Arial, sans-serif;
+  display: inline-block;
+  transform: rotate(180deg);
+}
